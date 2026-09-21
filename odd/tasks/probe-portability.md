@@ -8,12 +8,12 @@ No se subirán ni modificarán los 27 PDF ni el archivo PPTX originales. No se p
 
 ## Plan de trabajo
 
-- [ ] T1: Crear y verificar un registro portable, instrucciones de reanudación y exclusión de materiales originales; registrar la unidad de trabajo con un commit convencional.
+- [x] T1: Crear y verificar un registro portable, instrucciones de reanudación y exclusión de materiales originales; registrar la unidad de trabajo con un commit convencional.
 
 Ruta T1: delegada directa. Motivo: redacción no mecánica de documentos relacionados y lectura preparatoria. El padre conserva la verificación remota, Git y la entrega.
 Archivos previstos: `README.md`, `AVANCE_PROBE.md` y `.gitignore`.
 Estimación: 250–350 líneas redactadas, incluido este seguimiento. Estrategia: `ask-on-risk`; no se prevé crear PR.
-Rama local prevista: `docs/probe-portability`. El repositorio remoto está vacío; se publicará su primera rama `main` sin sobrescribir historial.
+Rama local: `docs/probe-portability`, vinculada a `origin/main`. Se creó la primera rama remota `main` sin sobrescribir historial.
 
 ## Criterios de aceptación y comprobaciones
 
@@ -44,8 +44,11 @@ La evaluación nativa clasificó el cambio como `medium` por `.gitignore`, con `
 - Comparación SHA-256 posterior: los 28 originales conservan exactamente su contenido.
 - UTF-8, enlace README al registro y ausencia de espacios finales: comprobados por el redactor; el padre repitió la lectura y la comprobación de exclusiones.
 - Espejo Engram pendiente: el servicio rechaza el proyecto con `unknown_project`; no existe un identificador de sesión autorizado disponible.
-- Commit y entrega: pendientes.
+- Unidad de trabajo: commit `12f2d0f202d2197bad48607236f16d1fd2cf9c88`, `docs(study): preserve partial exam diagnostic progress`, 309 líneas añadidas.
+- Entrega verificada: ese SHA coincide con `refs/heads/main` remoto. Los hashes de los cuatro archivos publicados coinciden con los blobs locales; no se publicó ningún PDF ni PPTX.
+- Privacidad posterior a la subida: `isPrivate=true`; rama predeterminada: `main`.
+- Este cierre documental registra la comprobación del commit de contenido; la confirmación final del commit de cierre se informa en la conversación, evitando una referencia circular a su propio hash.
 
 ## Próximo paso
 
-Registrar la unidad de trabajo y comprobar su publicación privada con la lista exacta de archivos.
+Abrir el repositorio privado desde la otra computadora y seguir `README.md`. Continuar el diagnóstico en la pregunta pendiente de `AVANCE_PROBE.md`; los materiales originales deberán copiarse aparte si se necesitan consultar.
