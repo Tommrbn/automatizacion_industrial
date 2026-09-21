@@ -1,0 +1,36 @@
+# Materiales originales: fuera del alcance de este respaldo.
+*.[pP][dD][fF]
+*.[pP][pP][tT][xX]
+
+# Temporales y archivos locales de las aplicaciones.
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+__pycache__/
+.cache/
+tmp/
+temp/
+
+# Credenciales y configuración privada local.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials*.json
+secrets.json
+secrets.*
+.ssh/
+.aws/
+.azure/
+.engram/
